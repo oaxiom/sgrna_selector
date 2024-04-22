@@ -16,6 +16,7 @@ Usage: sgrna_selector.py genenames_file.txt libraryname num_sgrnas_per_gene
 
 # Example
 
+```
 sgrna_selector % python sgrna_selector.py test_data.tsv test 3
 INFO    : NumExpr defaulting to 4 threads.
 INFO    : genelist: loaded 'test_data.tsv' found 803 items
@@ -139,6 +140,6 @@ Final set:
   Number of sgRNAs                 : 2541
   Average sgRNAs/gene              : 3.2
   Total number of CTRL sgRNAs      : 141
-
+```
 
 
